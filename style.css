@@ -1,0 +1,71 @@
+/* Basic reset and styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+nav {
+    width: 100%;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    width: 80%;
+    margin: 2em 0;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.post, .product {
+    border-bottom: 1px solid #ddd;
+    padding: 1em 0;
+}
+
+.post:last-child, .product:last-child {
+    border-bottom: none;
+}
+
+.post-title, .product-title {
+    font-weight: bold;
+}
+
+.likes-comments {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 0.5em;
+}
